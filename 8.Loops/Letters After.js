@@ -1,14 +1,14 @@
 // My Code
 
 function lettersAfter (haystack, needle, limit) {
-    let letters = ''
+    let letters = '';
         for (let x = 0; x < haystack.length; x++){
             if (haystack[x] === needle){
             for (let y = 0; y < limit; y++){
-                let innerChar = haystack[x + y + 1]
+                let innerChar = haystack[x + y + 1];
                 letters += innerChar;
                 }
-                break
+                break;
             }
         }
     return letters
