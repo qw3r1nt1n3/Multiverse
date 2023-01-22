@@ -1,0 +1,1 @@
+const mixedArray = ["with me", "for you", 411]
