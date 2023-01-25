@@ -68,7 +68,7 @@
 
 // [2,2] will represent the lower-right and so on.
 
-// Examples:
+/////////////Example///////////////////////// Example
 
 // let puzzle = [[ 8,9,5,   7,4,2,   1,3,6 ],
 //               [ 2,7,1,   9,6,3,   4,8,5 ],
@@ -101,6 +101,8 @@
 // getSection(puzzle, 1,0);
 // // -> [ 7,4,2,9,6,3,5,8,1 ]
 
+/////////////Example///////////////////////// Example
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -113,10 +115,12 @@
 
 // includes1To9: Now we need to write a function that will accept a subsection and check that it includes the numbers 1-9 (with no repeats). Write a function includes1to9 that takes in arr that accomplishes this. This function should return a boolean.
 
-// Examples:
+/////////////Example///////////////////////// Example
 
 // includes1to9([1,2,3,4,5,6,7,8,9]) // => true
 // includes1to9([1,1,2,3,4,5,6,7,8]) // => false (no 9)
+
+/////////////Example///////////////////////// Example
 
 // Part 2:
 
@@ -124,7 +128,7 @@
 
 // sudokuIsValid: This function is to determine whether or not our sudoku puzzle has the values of 1-9 through each row and within each sub-grid with no repeats. The function will accept a sudoku puzzle and should return a boolean.
 
-// Examples:
+/////////////Example///////////////////////// Example
 
 // let puzzle = [[ 8,9,5,   7,4,2,   1,3,6 ],
 //               [ 2,7,1,   9,6,3,   4,8,5 ],
@@ -156,3 +160,4 @@
 // sudokuIsValid(puzzleTwo);
 // // => false
 
+/////////////Example///////////////////////// Example
